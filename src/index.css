@@ -5,3 +5,35 @@ body {
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
 }
+
+.character-container {
+  border: 1px solid white;
+  width: 80%;
+  height: auto;
+  margin: 0 10%;
+  display: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.character-bar {
+  width: 90%;
+  height: 4%;
+  background-color: black;
+  /* opacity: .3; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border-radius: 50%; */
+}
+.character-bar:hover {
+
+}
+
+.name, .year {
+  color: white;
+  opacity: .9;
+  margin: 5px;
+  padding: 3px;
+}
